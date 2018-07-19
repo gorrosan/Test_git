@@ -6,7 +6,20 @@
         xmlns:local="clr-namespace:Repozitiry_tester"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="FontFamily" Value="TimesNewRoman"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+</Window.Resources>
     <Grid>
-        
+        <StackPanel>
+            <TextBlock Text="Тут Може бути ваша реклама"></TextBlock>
+            <TextBlock >
+                <Hyperlink> 0988720123</Hyperlink>
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </Window>

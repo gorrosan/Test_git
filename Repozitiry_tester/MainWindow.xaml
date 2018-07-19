@@ -18,7 +18,7 @@
         <StackPanel>
             <TextBlock Text="Тут Може бути ваша реклама"></TextBlock>
             <TextBlock >
-                <Hyperlink> 0988720123</Hyperlink>
+                <Hyperlink> 0988720123 --> 1000$</Hyperlink>
             </TextBlock>
         </StackPanel>
     </Grid>
